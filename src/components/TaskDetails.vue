@@ -1,6 +1,10 @@
 <template>
     <div class="task">
-        <h1>{{ task.title }}</h1>
+        <h3>{{ task.title }}</h3>
+        <div class="icons">
+            <i class="material-icons">delete</i>
+            <i class="material-icons">favorite</i>
+        </div>
     </div>
 </template>
 
