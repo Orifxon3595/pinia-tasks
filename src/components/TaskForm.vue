@@ -19,7 +19,7 @@ export default {
         taskStore.addTask({
           title: newTask.value,
           isFan: false,
-          id: Math.floor(Math.random * 10000),
+          id: Math.floor(Math.random() * 10000),
         });
         newTask.value = "";
       }
